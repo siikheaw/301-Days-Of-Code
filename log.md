@@ -9,7 +9,7 @@ The daily log of my **#301DaysOfCode** challenge.
 Create an element in Pattern Library - AMP:Buttons.
 
 **Link to work:**
-[AMP:Buttons](https://codepen.io/siikheaw/pen/JjjJPza)
+[AMP: Buttons](https://codepen.io/siikheaw/pen/JjjJPza)
 
 ### Day 2: October 27, 2019
 
@@ -17,6 +17,6 @@ Create an element in Pattern Library - AMP:Buttons.
 Create an element in Pattern Library - AMP:Cards.
 
 **Link to work:**
-[AMP:Cards](https://codepen.io/siikheaw/pen/yLLXbQg)
+[AMP: Cards](https://codepen.io/siikheaw/pen/yLLXbQg)
 
 
