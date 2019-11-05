@@ -100,7 +100,7 @@ The daily log of my **#301DaysOfCode** challenge.
   const suffix = this.dataset.sizing || ''; // dataset = object contains data-*
   ```
 
-- Set the CSS properties with setProperties.
+- Set the CSS properties with setProperty.
   ```js
   document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
   ```
