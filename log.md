@@ -104,6 +104,48 @@ The daily log of my **#301DaysOfCode** challenge.
   ```js
   document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
   ```
+  
+### Day 10: November 6, 2019
+**Today:** A tutorial in JavaScript30: Array Cardio Day 1
+**Link:** 
+**Digest:**
+
+---
+
+### Day 11: November 7, 2019
+**Today:** A tutorial in JavaScript30: Flex Panels Image Gallery
+**Link:** [Flex Panels Image Gallery](https://codepen.io/siikheaw/pen/BaaxRKN?editors=0110)
+**Digest:**
+- Using Nested Flexbox.
+- Select every x-child.
+  ```css
+  .panel > *:first-child { transform: translateY(-100%); }
+  .panel > *:last-child { transform: translateY(100%); }
+  ```
+- Loop through every single element using ``forEach``.
+  ```js
+  const panels = document.querySelectorAll('.panel');
+  panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+  panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+  ```
+- Toggle classes.
+  ```js
+  function toggleOpen() {
+    this.classList.toggle('open');
+  }
+  ```
+- Select element that ``includes`` specific CSS property.
+  ```js
+  function toggleActive(e) {
+    if (e.propertyName.includes('flex')) {
+      this.classList.toggle('open-active');
+    }
+  }
+  ```
+
+---
+
+      
 
 
 
