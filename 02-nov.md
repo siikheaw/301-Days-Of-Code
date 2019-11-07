@@ -1,8 +1,6 @@
 ### Day 7: November 1, 2019
-**Today:** A tutorial in JavaScript30: JS Drum Kit.
-
-**Link:** [JS Drum Kit](https://codepen.io/siikheaw/pen/BaaYeRp)
-
+**Today:** A tutorial in JavaScript30: JS Drum Kit.  
+**Link:** [JS Drum Kit](https://codepen.io/siikheaw/pen/BaaYeRp)  
 **Digest:**  
 - Create copied array from something.
   ```js
@@ -24,12 +22,12 @@
   e.target.classList.remove('playing');
   ```
 
+---
+
 ### Day 8: November 2, 2019
-**Today:** A tutorial in JavaScript30: JS + CSS Clock.
-
-**Link:** [JS + CSS Clock](https://codepen.io/siikheaw/pen/ExxQzbM?editors=0110)
-
-**Digest:**
+**Today:** A tutorial in JavaScript30: JS + CSS Clock.  
+**Link:** [JS + CSS Clock](https://codepen.io/siikheaw/pen/ExxQzbM?editors=0110)  
+**Digest:**  
 - Get the current time using ``new Date()``.  
   ```js
   const now = new Date();
@@ -42,12 +40,11 @@
   const secondsDegrees = ((seconds / 60) * 360) + 90;
   secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
   ```
-  
+---
+
 ### Day 9: November 5, 2019
-**Today:** A tutorial in JavaScript30: CSS Variables & JS.
-
-**Link:** [CSS Vars & JS](https://codepen.io/siikheaw/pen/vYYRBvK)
-
+**Today:** A tutorial in JavaScript30: CSS Variables & JS.  
+**Link:** [CSS Vars & JS](https://codepen.io/siikheaw/pen/vYYRBvK)  
 **Digest:**  
 - CSS variables.
   ```css
@@ -69,18 +66,20 @@
   ```js
   document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
   ```
+
+---
   
 ### Day 10: November 6, 2019
-**Today:** A tutorial in JavaScript30: Array Cardio Day 1
-**Link:** 
-**Digest:**
+**Today:** A tutorial in JavaScript30: Array Cardio Day 1  
+**Link:**   
+**Digest:**  
 
 ---
 
 ### Day 11: November 7, 2019
-**Today:** A tutorial in JavaScript30: Flex Panels Image Gallery
-**Link:** [Flex Panels Image Gallery](https://codepen.io/siikheaw/pen/BaaxRKN?editors=0110)
-**Digest:**
+**Today:** A tutorial in JavaScript30: Flex Panels Image Gallery  
+**Link:** [Flex Panels Image Gallery](https://codepen.io/siikheaw/pen/BaaxRKN?editors=0110)  
+**Digest:**  
 - Using Nested Flexbox.
 - Select every x-child.
   ```css
