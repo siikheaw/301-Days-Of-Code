@@ -108,3 +108,12 @@
   ```
 
 ---
+
+### Day 12: November 14, 2019
+**Today:** A tutorial in JavaScript30: Ajax Type Ahead  
+**Link:** [Ajax Type Ahead](https://codepen.io/siikheaw/pen/wvvEwyL)  
+**Digest:**  
+  - fetch
+  - filter, map
+  - replace
+  - RegExp
