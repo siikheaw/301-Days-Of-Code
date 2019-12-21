@@ -62,4 +62,28 @@
 **Today:**  JavaScript30: Key Sequence Detection.  
 **Link:**   https://codepen.io/siikheaw/pen/dyyBaBw
 
+---
+
+### Day 18: November 28, 2019
+**Today:**  JavaScript30: Slide in on Scroll.  
+**Link:**   https://codepen.io/siikheaw/pen/VwwozNW
+
+---
+
+### Day 19: November 30, 2019  
+**Today:**  Pure CSS Animated Menu Icon.  
+**Link:**   https://codepen.io/siikheaw/pen/rNaBpOZ  
+
+---
+
+### Day 20: December 01, 2019  
+**Today:**  Toggle Switch.  
+**Link:**   https://codepen.io/siikheaw/pen/KKwPJGP  
+**Recap:**  [Using label and input](../recap/input.md)
+
+---
+
+
+
+
 
