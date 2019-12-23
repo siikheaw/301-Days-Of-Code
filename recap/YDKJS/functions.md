@@ -19,3 +19,6 @@ Function declaration appears as a statement by itself, not as an expression that
 The association between the identifier `awesomeFunction` and *the function value happens immediately during the compile phase of the code, before that code is executed.*
 
 Function expression can be defined and assigned. *Function expression is not associated with its identifier until that statement during runtime.*
+
+Since functions are values, they can be assigned as properties on objects.
+
