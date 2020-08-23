@@ -1,6 +1,7 @@
 # React
 
-React is a JavaScript library for building user interfaces. [^1]
+React is a JavaScript library for building user interfaces. <sup>[1](#myfootnote1)</sup>
+
 
 
 
@@ -18,4 +19,4 @@ React is a JavaScript library for building user interfaces. [^1]
 
 
 ## References
-[1]: https://reactjs.org/
+<a name="myfootnote1">1</a>: Footnote content goes here
