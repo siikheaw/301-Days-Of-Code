@@ -1,11 +1,57 @@
+## #005 : Aug 02, 2020
+### Today
+React Refs and this Binding
+### Links
 
 
-
-
+---
 
 # React Refs and this Binding
-### this Binding
+
 The Golden Rule in React is **DON'T Touch The DOM.**
+Example: How can we select the 'input' in form element.
+```js
+<form className="store-selector" onSubmit={this.gotoStore}>
+  <input
+    type="text"
+    defaultValue={getFunName()}
+  />
+  <button type="submit">Visit Store</button>
+</form>
+```
+
+DON'T do this in React.
+```js
+/* Don't touch the DOM */
+const storeName = document.querySelector('input'); // vanilla
+/* or */
+const storeName = $('input'); // jQuery
+```
+
+Instead, use Refs or State.
+```js
+myInput = React.createRef(); // create empty Ref
+
+/* bind this to our own component */
+constructor() {
+  super();
+  this.goToStore = this.goToStore.bind(this); // by default, 'this' not bound with our own component, so we need to munually bind 'this' or using arrow function instead */
+}
+
+/* easiest way to bind 'this' is to use arrow function */
+goToStore = event => {
+
+}
+
+<form className="store-selector" onSubmit={this.gotoStore}>
+  <input
+    type="text"
+    ref={this.myInput}
+    defaultValue={getFunName()}
+  />
+  <button type="submit">Visit Store</button>
+</form>
+```
 
 ```js
 class StorePicker extends React.Component {
