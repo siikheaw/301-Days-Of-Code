@@ -1,6 +1,6 @@
 ## #005 : Aug 02, 2020
 ### Today
-React Events, Refs and this Binding
+React Events
 ### Links
 - https://snippets.cacher.io/snippet/d19497a75a516260720e  
 - https://snippets.cacher.io/snippet/e0618cc16b70438c8c29
