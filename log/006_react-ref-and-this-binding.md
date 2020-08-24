@@ -2,13 +2,13 @@
 ### Today
 React Refs and this Binding
 ### Links
-
+- https://snippets.cacher.io/snippet/e0618cc16b70438c8c29
 
 ---
 
 # React Refs and this Binding
 
-The Golden Rule in React is **DON'T Touch The DOM.**
+The Golden Rule in React is **DON'T Touch The DOM.**  
 Example: How can we select the 'input' in form element.
 ```js
 <form className="store-selector" onSubmit={this.gotoStore}>
@@ -51,7 +51,7 @@ goToStore(event) =  {
 }
 ```
 
-So we need to munually bind 'this'
+So we need to munually bind 'this'.
 ```js
 /* bind this to our own component */
 constructor() {
