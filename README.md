@@ -4,6 +4,6 @@ This is my journey to learn to code. Forked and adapted from the popular [301 Da
 ## 🎯 Goal
 - To be a Web Developer.
 
-## 📖Contents
+## 📖 Contents
 - [Log](log.md)
 - [React 101](https://github.com/siikheaw/React-101)
