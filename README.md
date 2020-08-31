@@ -5,5 +5,5 @@ This is my journey to learn to code. Forked and adapted from the popular [301 Da
 - To be a Web Developer.
 
 ## 📖 Contents
-- [Log](log.md)
+- [Log](https://github.com/siikheaw/301-Days-Of-Code/tree/master/log)
 - [React 101](https://github.com/siikheaw/React-101)
